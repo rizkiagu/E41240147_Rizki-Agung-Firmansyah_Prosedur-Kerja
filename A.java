@@ -1,8 +1,12 @@
 
-package konstruktor;
+package pewarisan;
 
 public class A {
-    A() {
-        System.out.println("Konstruktor class A dieksekusi...");
-    }  
+    int x;
+    int y;
+
+    void TampilkanNilaiXY(){
+        System.out.println("Nilai x : " + x + ", y : " + y);
+    }
 }
+    
