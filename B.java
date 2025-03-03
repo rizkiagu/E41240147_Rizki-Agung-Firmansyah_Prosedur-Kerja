@@ -1,11 +1,8 @@
 
-package pewarisan;
+package konstruktor;
 
 public class B extends A{
-    int z;
-    
-    void TampilkanJumlah(){
-        System.out.println("Jumlah : " + (x+y+z));
+    B() {
+        System.out.println("Konstruktor class 8 dieksekusi...");
     }
-    
 }
